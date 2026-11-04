@@ -17,13 +17,31 @@
 ## 目录结构
 
 ```
-['SKILL.md', 'agents/openai.yaml', 'references/camera-audio-continuity.md', 'references/delivery-profile.md', 'references/generability.md', 'references/minimax-h3.md', 'references/motion-recipe.md', 'references/performance-action-timing.md', 'references/production-prompt-grammar.md', 'references/review-and-fixtures.md', 'references/seedance-2.0.md', 'references/seedance-2.5.md', 'references/stage-contract.md', 'references/target-model-profile.md', 'references/wan-3.0.md', 'LICENSE', 'README.upstream.md']
+├── LICENSE
+├── README.upstream.md
+├── SKILL.md
+├── references/
+├── camera-audio-continuity.md
+├── delivery-profile.md
+├── generability.md
+├── minimax-h3.md
+├── motion-recipe.md
+├── performance-action-timing.md
+├── production-prompt-grammar.md
+├── review-and-fixtures.md
+├── seedance-2.0.md
+├── seedance-2.5.md
+├── stage-contract.md
+├── target-model-profile.md
+└── wan-3.0.md
+└── agents/
+└── openai.yaml
 ```
 
 - `SKILL.md` 是技能入口（触发条件 / 工作流 / 约束），安装时必须位于技能根目录。
 - `references/`、`scripts/`、`assets/` 为该技能自带的参考文档、脚本与素材。
 - `README.upstream.md` 为上游仓库原始说明，保留出处与版权信息。
-- `LICENSE` 为上游许可证原文。
+- `LICENSE` 为上游许可证原件。
 
 ## 安装
 
@@ -36,8 +54,6 @@ git clone https://github.com/simlpandordinary/short-drama-video-prompts.git ~/.w
 也可以直接对 AI 说：「把 <https://github.com/simlpandordinary/short-drama-video-prompts> 装成 Skill」。
 
 安装后用自然语言触发，例如「Drama Skills · short-drama-video-prompts」「用 short-drama-video-prompts 帮我处理这个任务」。
-
-本仓库仅含 Drama Skills 技能包中的 `short-drama` 家族技能之一，其余 10 个技能各自独立成仓。
 
 ## 版权
 
