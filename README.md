@@ -21,21 +21,21 @@
 ├── README.upstream.md
 ├── SKILL.md
 ├── references/
-├── camera-audio-continuity.md
-├── delivery-profile.md
-├── generability.md
-├── minimax-h3.md
-├── motion-recipe.md
-├── performance-action-timing.md
-├── production-prompt-grammar.md
-├── review-and-fixtures.md
-├── seedance-2.0.md
-├── seedance-2.5.md
-├── stage-contract.md
-├── target-model-profile.md
-└── wan-3.0.md
+│   ├── camera-audio-continuity.md
+│   ├── delivery-profile.md
+│   ├── generability.md
+│   ├── minimax-h3.md
+│   ├── motion-recipe.md
+│   ├── performance-action-timing.md
+│   ├── production-prompt-grammar.md
+│   ├── review-and-fixtures.md
+│   ├── seedance-2.0.md
+│   ├── seedance-2.5.md
+│   ├── stage-contract.md
+│   ├── target-model-profile.md
+│   └── wan-3.0.md
 └── agents/
-└── openai.yaml
+    └── openai.yaml
 ```
 
 - `SKILL.md` 是技能入口（触发条件 / 工作流 / 约束），安装时必须位于技能根目录。
